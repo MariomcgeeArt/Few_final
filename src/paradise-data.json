@@ -1,0 +1,91 @@
+[
+    {
+       "title":"Bora Bora",
+       "desc":"Island in French Polynesia",
+       "location":"French Polynesia",
+       "ave_temp": "79F",
+       "geo":{
+          "lat":37.7952005,
+          "lon":-122.4027927
+       },
+       "images":[
+          "borabora.jpg"
+       ],
+       "website":"https://pyramidcenter.com/point-of-interest/redwood-park/",
+       "features":[
+          "n/a",
+          "n/a"
+       ]
+    },
+    {
+       "title":"Milan",
+       "desc":"City within Italy",
+       "location":"Italy",
+       "ave_temp": "76F",
+       "geo":{
+          "lat":37.7942109,
+          "lon":-122.4037971
+       },
+       "images":[
+          "milan.jpg"
+       ],
+       "website":"https://www.artandarchitecture-sf.com/empire-park.html",
+       "features":[
+          "outdoors",
+          "art"
+       ]
+    },
+    {
+       "title":"New York ",
+       "desc":"East coat city within USA",
+       "location":"USA",
+       "ave_temp": "76F",
+       "geo":{
+          "lat":37.79408,
+          "lon":-122.3973817
+       },
+       "images":[
+          "newyork.jpg"
+       ],
+       "features":[
+          "outdoors",
+          "toilet"
+       ]
+    },
+    {
+       "title":"Paris",
+       "desc":"Capitol of France",
+       "location":"France",
+       "ave_temp": "71F",
+       "geo":{
+          "lat":37.7939413,
+          "lon":-122.4002143
+       },
+       "images":[
+          "paris.jpg"
+       ],
+       "features":[
+          "outdoors",
+          "toilet",
+          "coffee"
+       ]
+    },
+    {
+       "title":"Tokyo",
+       "desc":"Capitoil of Japan",
+       "location":"Japan",
+       "ave_temp": "87F",
+       "geo":{
+          "lat":37.7936454,
+          "lon":-122.4014547
+       },
+       "images":[
+          "tokyo.jpg"
+       ],
+       "opens":"10am",
+       "closes":"5pm",
+       "features":[
+          "outdoors"
+       ]
+    }
+  ]

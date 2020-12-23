@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from './logo.svg'
+import './PARADISESpace.css';
 
 
 
 
 
   function PARADISESpace(props) {
-    const { name, image, address } = props
+    const { name, image, location, ave_temp } = props
     return (
       <div>
         <img 
@@ -16,7 +16,8 @@ import logo from './logo.svg'
           alt="Hello" 
         />
         <h1>{name}</h1>
-        <div>{address}</div>
+        <div>{location}</div>
+        <div>{ave_temp}</div>
       </div>
     )
   }

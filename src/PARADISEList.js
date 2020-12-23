@@ -2,38 +2,27 @@
 
 import React from 'react';
 import PARADISESpace from './PARADISESpace.js';
+import './PARADISEList.css';
+import data from './paradise-data.json'
 
 function PARADISEList() {
+
+  const spaces = data.map(( { title, location, images, ave_temp } ) => {
+    return (
+      <PARADISESpace
+        key={title}
+        name={title}
+        location={location}
+        image={images[0]}
+        ave_temp={ave_temp}
+      />
+    )
+  })
+
   return (
     <div className="PARADISEList">
-      <PARADISESpace
-        name="PARIS"
-        location="FRANCE"
-        image="paris.jpg"
-      />
-      <PARADISESpace
-        name="Bora Bora"
-        location="French Polynesia"
-        image="borabora.jpg"
-      />
-      <PARADISESpace
-        name="Milan"
-        location="Italy"
-        image="milan.jpg"
-      />
-      <PARADISESpace
-        name="New York"
-        location="USA"
-        image="newyork.jpg"
-      />
-      <PARADISESpace
-        name="tokyo"
-        address="Japan"
-        image="tokyo.jpg"
-      />
-     
+      { spaces }
     </div>
   )
 }
-
 export default PARADISEList
