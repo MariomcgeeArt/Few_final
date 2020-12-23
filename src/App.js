@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Title from './Title';
-import PARADISEList from './PARADISEList';
+import PARADISEList from './PARADISEList.js';
 
 function App() {
   return (
