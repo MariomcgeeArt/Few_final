@@ -7,9 +7,10 @@ import data from './paradise-data.json'
 
 function PARADISEList() {
 
-  const spaces = data.map(( { title, location, images, ave_temp } ) => {
+  const spaces = data.map(( { title, location, images, ave_temp }, i ) => {
     return (
       <PARADISESpace
+        id={i}
         key={title}
         name={title}
         location={location}

@@ -31,7 +31,7 @@
        ],
        "website":"https://www.artandarchitecture-sf.com/empire-park.html",
        "features":[
-          "outdoors",
+          "",
           "art"
        ]
     },
@@ -48,8 +48,8 @@
           "newyork.jpg"
        ],
        "features":[
-          "outdoors",
-          "toilet"
+          "empire state building",
+          "statue liberty"
        ]
     },
     {
@@ -65,9 +65,9 @@
           "paris.jpg"
        ],
        "features":[
-          "outdoors",
-          "toilet",
-          "coffee"
+          "eiffle tower",
+          "snails",
+          ""
        ]
     },
     {
@@ -85,7 +85,7 @@
        "opens":"10am",
        "closes":"5pm",
        "features":[
-          "outdoors"
+          "home of manga/anime"
        ]
     }
   ]
